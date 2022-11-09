@@ -10,23 +10,34 @@ Install
 yarn
 ```
 
-Run Dev
+Run for Developer
 
 ```bash
 yarn dev
 ```
 
-Build
+Build project
 
 ```bash
 yarn build
 ```
 
-Deploy in docker container
+Format code with Prettier
 
 ```bash
-yarn build
-docker build -t react .
+yarn format
+```
+
+Lint code with ESLint
+
+```bash
+yarn lint
+```
+
+## Deploy in docker container
+
+```bash
+yarn build && docker build -t react .
 ```
 
 Run container
