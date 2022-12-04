@@ -1,3 +1,3 @@
+export * from './Home'
 export * from './Login'
-export * from './Private/Home'
-export * from './Private'
+export * from './NotFound'
